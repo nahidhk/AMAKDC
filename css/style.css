@@ -2,66 +2,79 @@
   font-family: banglafont;
   src: url("/font/bangla.ttf");
 }
-body{
+
+body {
   margin: 0;
+  background-color: rgb(207, 207, 207);
 }
-.nav{
-    justify-content: space-evenly;
-display: flex;
+
+.nav {
+  justify-content: space-evenly;
+  display: flex;
   top: 0;
   height: 50px;
   width: 100%;
   background-color: #9EB0D7;
   position: sticky;
-  
+
 }
-.title{
-    font-family: banglafont;
+
+.title {
+  font-family: banglafont;
   font-size: 27px;
   animation: nahid 1s infinite;
 }
+
 @keyframes nahid {
-  50%{
+  50% {
     color: red;
   }
-  100%{
+
+  100% {
     color: green;
   }
 }
 
 
-.userbox{
+.userbox {
   margin-top: 10px;
   margin-inline: 10px;
   height: auto;
-background-color: #EFEFEF;
-width: 100%;
-border-radius: 8px;
-box-shadow: 0 0 4px 0 black;
+  background-color: #EFEFEF;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 0 black;
 }
-.userbox img{
+
+.userbox img {
   height: 100%;
   width: 100%;
-   border-top-left-radius: 8px;
+  border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
-.userbox p{
+
+.userbox p {
   padding-bottom: 30px;
   margin: 8px;
 }
-.icon-box{
+
+.icon-box {
   height: 50px;
   width: 50px;
- padding: 8px;
+  padding: 8px;
 
 }
-.nav i{
-font-size: 30px; 
-color: #2E2E31;
+
+.nav i {
+  font-size: 30px;
+  color: #2E2E31;
+  cursor: pointer;
 }
-.nav i:active{
+
+.nav i:active {
   color: #4680ff;
 }
-.active{
-  color: #4680ff;
+
+.nav .active {
+  color: #4680ff; 
 }

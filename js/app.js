@@ -10,3 +10,26 @@ function cngnam2(){
 }
 
 setTimeout(cngnam1,1000);
+
+
+
+function home(){
+  window.location.href="/home";
+}
+
+function feed(){
+  window.location.href="/feeds";
+}
+
+function user(){
+  window.location.href="/user";
+}
+
+function info(){
+  window.location.href="/info";
+}
+
+function setting(){
+  window.location.href="/setting";
+}
+
