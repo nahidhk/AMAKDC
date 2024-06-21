@@ -6,6 +6,11 @@
 body {
   margin: 0;
   background-color: rgb(207, 207, 207);
+  background-image: url("/img/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-attachment: fixed;
 }
 
 .nav {
@@ -14,8 +19,9 @@ body {
   top: 0;
   height: 50px;
   width: 100%;
-  background-color: #9EB0D7;
+  background-color: #9EB0D7C9;
   position: sticky;
+  backdrop-filter: grayscale(100%);
 
 }
 
